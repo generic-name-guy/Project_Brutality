@@ -63,11 +63,11 @@ ACTOR PB_Pistol : PB_Weapon Replaces Pistol
 	Inventory.Amount 1
 	+FLOORCLIP
 	+DONTGIB
-	Obituary "%o was shot down by %k's Pistol"
+	Obituary "$PB_PISTOLOBITUARY"
     AttackSound "None"
-	Tag "UAC .45 Pistol"
+	Tag "$PB_PISTOL"
     Inventory.PickupSound "weapons/pistolup"
-	Inventory.Pickupmessage "You got the UAC-B950 .45 Pistol! (Slot 2)"
+	Inventory.Pickupmessage "$PB_GOTPISTOL"
 	+WEAPON.WIMPY_WEAPON
     +WEAPON.NOAUTOAIM
     +WEAPON.NOAUTOFIRE

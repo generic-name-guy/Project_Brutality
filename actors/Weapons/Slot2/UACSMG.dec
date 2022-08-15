@@ -109,10 +109,10 @@ ACTOR PB_SMG : PB_Weapon
 	Inventory.Amount 1
 	+FLOORCLIP
 	+DONTGIB
-	Obituary "%o was shot down by %k's UAC17 Compact Sub-Machine Gun."
+	Obituary "$PB_GENERICOBITUARY"
     Inventory.PickupSound "CLIPIN"
-	Inventory.Pickupmessage "You found the UAC Compact Sub-Machine Gun! (Slot 2)"
-	Tag "UAC-17 SMG"
+	Inventory.Pickupmessage "$PB_GOTSMG"
+	Tag "$PB_SMG"
     +WEAPON.NOAUTOAIM
     +WEAPON.NOALERT
     +WEAPON.NOAUTOFIRE

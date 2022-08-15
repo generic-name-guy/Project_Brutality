@@ -50,9 +50,9 @@ ACTOR PB_MP40 : PB_Weapon
 	Inventory.Amount 1
 	+FLOORCLIP
 	+DONTGIB
-	Obituary "%o was put against the wall by %k's Maschinenpistole 40."
+	Obituary "$PB_MP40OBITUARY"
     Inventory.PickupSound "weapons/MP40_pickup"
-	Inventory.Pickupmessage "You found a Maschinenpistole 40! (Slot 2)"
+	Inventory.Pickupmessage "$PB_GOTMP40"
 	Tag "Maschinenpistole 40"
     +WEAPON.NOAUTOAIM
     +WEAPON.NOALERT

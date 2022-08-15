@@ -49,10 +49,10 @@ ACTOR PB_Deagle : PB_Weapon
 	Inventory.Amount 1
 	+FLOORCLIP
 	+DONTGIB
-	Obituary "%o was popped by %k's .50 Caliber Hand Cannon."
+	Obituary "$PB_DEAGLEOBITUARY"
     Inventory.PickupSound "weapons/deagle/equip"
-	Inventory.Pickupmessage "You found the UAC .50 Caliber Hand Cannon! (Slot 2, Upgrade)"
-	Tag "Desert Eagle .50"
+	Inventory.Pickupmessage "$PB_GOTDEAGLE"
+	Tag "$PB_DEAGLE"
     +WEAPON.NOAUTOAIM
     +WEAPON.NOALERT
     +WEAPON.NOAUTOFIRE

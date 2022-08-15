@@ -50,10 +50,10 @@ ACTOR PB_Revolver : PB_Weapon
 	//Weapon.Kickback 100
 	+FLOORCLIP
 	+DONTGIB
-	Obituary "%o was shot down by %k's revolver."
+	Obituary "$PB_REVOLVEROBITUARY"
     AttackSound "None"
 	Inventory.PickupSound "REVOUP"
-	Inventory.Pickupmessage "You got the UAC .500 Magnum! (Slot 2)"
+	Inventory.Pickupmessage "$PB_GOTREVOLVER"
     +WEAPON.NOAUTOAIM
     +WEAPON.NOALERT
     +WEAPON.NOAUTOFIRE
