@@ -114,7 +114,7 @@ ACTOR ArachnoGun_Plasma
 	renderstyle ADD
 	DeathSound "weapons/plasmax"
     SeeSound "None"
-	Obituary "%o was melted by %k's Plasma Gun"
+	Obituary "$PB_ARACHOBITUARY"
 	States
 	{
 	Spawn:
@@ -157,7 +157,7 @@ ACTOR Melee_Attacks : PB_Weapon Replaces Fist
 	Game Doom
 	Weapon.SelectionOrder 3700
 	Weapon.Kickback 100
-	Obituary "%o was Ripped and Torn by %k"
+	Obituary "$PB_FISTSOBITUARY"
 	+WEAPON.WIMPY_WEAPON
 	+WEAPON.MELEEWEAPON
     +WEAPON.NOALERT
@@ -168,7 +168,7 @@ ACTOR Melee_Attacks : PB_Weapon Replaces Fist
 	Weapon.BobRangeY 0.5
 	Weapon.BobStyle InverseSmooth
 	Weapon.BobSpeed 2.4
-	Tag "Bare Hands"
+	Tag "$PB_HANDS"
 	inventory.AltHUDIcon "KUKRA0"
 	States
 	{
@@ -1936,7 +1936,7 @@ ACTOR KnifeSwing : FastProjectile
 	Damage 11
 	Speed 45
 	ProjectileKickBack 100
-	Obituary "%o was sliced-n-diced by %k"
+	Obituary "$PB_KNIFEOBITUARY"
 	SeeSound "none"
 	DeathSound "none"
 	Decal "SawDecalNew1"

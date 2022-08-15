@@ -80,7 +80,7 @@ Actor PB_Chainsaw  : PB_Weapon replaces Chainsaw
 	+WEAPON.AXEBLOOD
 	+WEAPON.NOALERT
 	+WEAPON.MELEEWEAPON
-	Tag "Chainsaw"
+	Tag "$TAG_CHAINSAW"
 	Scale .49
 	Inventory.AltHUDIcon "CSAWA0"
 	FloatBobStrength 0.5
@@ -1398,7 +1398,7 @@ ACTOR SawSwing : FastProjectile
 	Damage 10
 	Speed 50
 	ProjectileKickBack 300
-	Obituary "%o was sliced-n-diced by %k"
+	Obituary "$PB_KNIFEOBITUARY"
 	SeeSound "none"
 	DeathSound "none"
 	Decal "SawDecalNew1"
