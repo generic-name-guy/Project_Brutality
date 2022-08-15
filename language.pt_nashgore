@@ -1,0 +1,61 @@
+[pt]
+
+OPTMNU_NASHGORE = "Personalizar o Nash's Gore Mod";
+
+NASHGOREMNU_TITLE = "Opções do Nash's Gore Mod";
+
+NASHGOREMNU_BLOOD_TITLE = "Opções de Sangue";
+NASHGOREMNU_GIB_TITLE = "Opções de Gib";
+NASHGOREMNU_MISC_TITLE = "Opções Miscelâneas";
+NASHGOREMNU_CONTROLS_TITLE = "Controles";
+
+NASHGOREMNU_BLOOD_TYPE = "Tipo de Sangue";
+NASHGOREMNU_BLOOD_AMOUNT = "Quantidade de Sangue";
+NASHGOREMNU_BLOOD_SPRITES = "Tipo de Sangue no Chão";
+NASHGOREMNU_BLOOD_SPURTS = "Sangue Jorrando";
+
+NASHGOREMNU_GIB_TYPE = "Tipo de Gib";
+NASHGOREMNU_GIB_AMOUNT = "Quantidade de Gib";
+
+NASHGOREMNU_MISC_CLEARGORENOW = "Limpar Gibs";
+NASHGOREMNU_MISC_MAXGORE = "Objetos máximos de sanguinolência";
+NASHGOREMNU_MISC_MAXCASINGS = "Máximo de Cartuchos usados";
+NASHGOREMNU_MISC_CORPSEBLOOD = "Poças de Sangue";
+NASHGOREMNU_MISC_FOOTPRINTS = "Pegadas";
+NASHGOREMNU_MISC_DEATHFLIP = "Virar Sprite de Morte";
+NASHGOREMNU_MISC_SQUISH = "Efeito de Esmagamento";
+NASHGOREMNU_MISC_ICEDEATH = "Efeitos de Gelo";
+NASHGOREMNU_MISC_SPLAT = "Efeito de Cair";
+
+NASHGOREMNU_CONTROLS_CLEARGORE = "Limpar Efeitos de Sanguinolência";
+
+// Generic reusable labels
+NASHGOREMNU_ENABLED = "Habilitado";
+NASHGOREMNU_DEFAULT = "Padrão";
+NASHGOREMNU_VANILLA = "Vanilla";
+NASHGOREMNU_REALISTIC = "Realista";
+
+// Specific labels
+NASHGOREMNU_BLOOD_TYPE_CLASSIC = "Clássico";
+NASHGOREMNU_GIB_TYPE_NOSTICKYGIBS = "Sem Gibs de Parede e Teto";
+NASHGOREMNU_BLOOD_SPRITE_DECALS = "Decalque";
+NASHGOREMNU_BLOOD_SPRITE_SPRITES = "Sprite";
+
+// Help text
+NASHGOREMNU_HELPTEXT_BLOOD_TYPE = "Tipo de sangue Hitscan.";
+NASHGOREMNU_HELPTEXT_BLOOD_AMOUNT = "Ajustar quantidade de Sangue.";
+NASHGOREMNU_HELPTEXT_BLOOD_SPRITES = "Usar decalques ou sprites para pontos de Sangue.";
+NASHGOREMNU_HELPTEXT_BLOOD_SPURTS = "Habilitar jatos de sangue em corpos.";
+NASHGOREMNU_HELPTEXT_GIB_TYPE = "Tipo de efeito de gib.";
+NASHGOREMNU_HELPTEXT_GIB_AMOUNT = "Ajusta o tanto de gibs.";
+NASHGOREMNU_HELPTEXT_MISC_MAXGORE = "Número máximo de objetos de sanguinolência para criar.";
+NASHGOREMNU_HELPTEXT_MISC_MAXCASINGS = "Número máximo de cartuchos para criar.";
+NASHGOREMNU_HELPTEXT_MISC_CORPSEBLOOD = "Habilitar Poças de Sangue abaixo de corpos.";
+NASHGOREMNU_HELPTEXT_MISC_FOOTPRINTS = "Habilitar pegadas sangrentas.";
+NASHGOREMNU_HELPTEXT_MISC_DEATHFLIP = "Aleatoriamente virar corpo após a morte.";
+NASHGOREMNU_HELPTEXT_MISC_SQUISH = "Habilitar carne mole quando o corpo for esmagado.";
+NASHGOREMNU_HELPTEXT_MISC_ICEDEATH = "Efeitos melhorados ao quebrar um Inimigo congelado.";
+NASHGOREMNU_HELPTEXT_MISC_SPLAT = "Habilitar efeito de corpo caindo de um lugar alto.";
+NASHGOREMNU_HELPTEXT_MISC_CLEARGORENOW = "Remove todos os efeitos de sanguinolência instantaneamente.";
+
+NASHGOREMNU_HELPTEXT_CONTROLS_CLEARGORE = "Tecla para remover todos os efeitos de sanguinolência.";

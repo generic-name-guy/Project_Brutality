@@ -1,0 +1,64 @@
+[pt]
+
+
+
+//Obits
+PB_ARACHOBITUARY = "%o foi derretido pelo fuzil de plasma de %k.";
+PB_FISTSOBITUARY = "%o foi Estripado e Dilacerado por %k.";
+PB_KNIFEOBITUARY = "%o foi cortado por %k.";
+PB_DEAGLEOBITUARY = "%o foi papocado pelo Canhão de Mão de Calibre .50 de %k.";
+PB_MP40OBITUARY = "%o foi empurrado até a parede pela Maschinenpistole 40 de %k.";
+PB_PISTOLOBITUARY = "%o foi derrubado pela Pistola de %k.";
+PB_REVOLVEROBITUARY = "%o foi derrubado pelo Revolver de %k.";
+//Fuck it, they aren't even used anyways.
+PB_GENERICOBITUARY = "%o foi derrubado pelas balas de %k.";
+
+//PB
+GOTCLIP = "Você pegou um pente de balas.";
+GOTHTHNEED = "Você pegou um bônus de vida. Não é vida suficiente, mas você prescisava mesmo assim.";
+GOTMEDPAKNEED = "Picked up a medipack that you DESPERATELY needed!";
+
+//Powerups
+
+PB_BEEGBACKPACKPICK = "Você achou uma mochila gigante cheia de munição!";
+PB_DEMONRUNE = "Você pegou a runa de força demônica. ESTRIPAR E DILACERAR!";
+PB_SUPERSERK = "MEGA FRENESI!";
+PB_MEGASPH = "Mega-esfera";
+PB_SSPH = "Supercarga!";
+PB_EXPLO = "Você encontrou um caixote explosivo!";
+PB_DSPH = "Você pegou a esfera de Doom. Seu arsenal anseia sangue...";
+PB_HASTE = "Você pegou a esfera de velocidade, seu corpo treme com energia...";
+
+//Pickups
+
+//Armor
+PB_SARMORBONUS = "Você pegou um super bônus de armadura.";
+PB_ARMORSHRD = "Você pegou um fragmento de armadura forte.";
+PB_LITEARMOR = "Você pegou uma armadura leve de segurança.";
+PB_HEAVYARMOR = "Você pegou uma armadura de combate pesada.";
+PB_MEDIUMARMOR = "Você pegou uma armadura de assalto média.";
+PB_REDARMOR = "Você pegou uma armadura elite de guarda.";
+
+//Bullets/Ammo
+PB_BULLCART = "Você pegou um pente de balas de baixo calibre.";
+PB_LOWCAL = "Você pegou uma caixa de balas de baixo calibre.";
+
+//Guns Guns Guns
+PB_GOTAXE = "Você pegou o Machado! (Slot 1)";
+PB_AXE = "Machado";
+PB_HANDS = "Punhos";
+PB_GOTDEAGLE = "Você achou o Canhão de Mão UAC .50! (Slot 2, Aprimoramento)";
+PB_DEAGLE = "Águia do Deserto .50";
+PB_GOTMP40 = "Você achou uma Maschinenpistole 40! (Slot 2)";
+
+PB_GOTPISTOL = "Você pegou a Pistola UAC-B950 .45! (Slot 2)";
+PB_PISTOL = "Pistola UAC .45";
+PB_GOTREVOLVER = "Você pegou a UAC .500 Magnum! (Slot 2)";
+
+PB_GOTSMG = "Você pegou a Submetralhadora Compacta UAC-17! (Slot 2)";
+PB_SMG = "Submetralhadora UAC-17";
+PB_GOTAUTOSHOTTY = "Você achou a Escopeta Automática! (Slot 3)";
+PB_AUTOSHOTTY = "Escopeta Automática";
+PB_AUTOSHOTTYUPGRADE = "Você pegou o aprimoramento da Escopeta Automática!";
+PB_GOTQUADSHOTGUN = "Você pegou o aprimoramento de Escopeta de Quatro Barris! (Slot 3)";
+PB_QUADSHOTGUN = "Escopeta de Quatro Barris";

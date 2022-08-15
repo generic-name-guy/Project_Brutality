@@ -1,0 +1,41 @@
+[pt]
+
+OPTMNU_TILTPLUSPLUS = "Personalizar o Tilt++";
+
+TILTPLUSPLUSMNU_TITLE = "Opções do Tilt++";
+
+TILTPLUSPLUSMNU_STRAFETILT_TITLE = "Inclinação de lado-a-lado";
+TILTPLUSPLUSMNU_MOVETILT_TITLE = "Inclinação de Movimento";
+TILTPLUSPLUSMNU_TURNTILT_TITLE = "Inclinação ao Virar";
+TILTPLUSPLUSMNU_UNDERWATERTILT_TITLE = "Inclinar debaixo d'água";
+TILTPLUSPLUSMNU_DEATHTILT_TITLE = "Inclinar ao Morrer";
+
+// Generic reusable labels
+TILTPLUSPLUSMNU_ENABLED = "Ligado";
+TILTPLUSPLUSMNU_SPEED = "Velocidade";
+TILTPLUSPLUSMNU_ANGLE = "Ângulo";
+TILTPLUSPLUSMNU_SCALAR = "Intensidade";
+TILTPLUSPLUSMNU_INVERT = "Inverter";
+
+
+// Help text
+TILTPLUSPLUSMNU_HELPTEXT_STRAFETILT = "Habilitar Inclinação quando o jogador andar de lado-a-lado.";
+TILTPLUSPLUSMNU_HELPTEXT_STRAFETILT_INVERT = "Inverter a inclinação de lado-a-lado.";
+TILTPLUSPLUSMNU_HELPTEXT_STRAFETILT_SPEED = "Velocidade que a inclinação lado-a-lado ocorre.";
+TILTPLUSPLUSMNU_HELPTEXT_STRAFETILT_ANGLE = "Ângulo máximo para inclinar a tela.";
+
+TILTPLUSPLUSMNU_HELPTEXT_MOVETILT = "Habilitar inclinação de movimento.";
+TILTPLUSPLUSMNU_HELPTEXT_MOVETILT_SPEED = "Velocidade de inclinar enquanto move.";
+TILTPLUSPLUSMNU_HELPTEXT_MOVETILT_ANGLE = "Ângulo maximo de inclinação de movimento.";
+TILTPLUSPLUSMNU_HELPTEXT_MOVETILT_SCALAR = "Intensidade de inclinação de movimento em geral.";
+
+TILTPLUSPLUSMNU_HELPTEXT_TURNTILT = "Habilitar inclinação de virar horizontalmente.";
+TILTPLUSPLUSMNU_HELPTEXT_TURNTILT_INVERT = "Inverter a inclinação horizontalmente.";
+TILTPLUSPLUSMNU_HELPTEXT_TURNTILT_SCALAR = "Intensidade de virar horizontalmente em geral.";
+
+TILTPLUSPLUSMNU_HELPTEXT_UNDERWATERTILT = "Habilitar inclinação lenta debaixo d'água.";
+TILTPLUSPLUSMNU_HELPTEXT_UNDERWATERTILT_SPEED = "Velocidade de inclinação da tela debaixo d'água.";
+TILTPLUSPLUSMNU_HELPTEXT_UNDERWATERTILT_ANGLE = "Ângulo máximo de inclinação debaixo d'água.";
+TILTPLUSPLUSMNU_HELPTEXT_UNDERWATERTILT_SCALAR = "Intensidade de inclinação debaixo d'água em geral.";
+
+TILTPLUSPLUSMNU_HELPTEXT_DEATHTILT = "Inclinar a tela quando o jogador morrer.";
