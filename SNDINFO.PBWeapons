@@ -138,7 +138,6 @@ brc2 brass_c2
 brc3 brass_c3
 brc4 brass_c4
 brc5 brass_c5
-weapons/suppressedpistol DSPISTL1
 weapons/pistolup pistol_u
 PSRLIN PSRLIN
 PSRLOUT PSRLOUT
@@ -340,7 +339,6 @@ blodr8 dsdrip8
 blodr9 dsdrip9
 blodr10 dsdrip10
 $volume BloodPoolStep 0.55
-Weapons/Rifle/SFire 4AFLFIR1
 
 //UAC DMR
 weapons/rifle/up RIFCL_UP
