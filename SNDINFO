@@ -25,6 +25,12 @@ weapons/hdmr4 hdmrf4
 
 $random weapons/hdmr/fire { weapons/hdmr1 weapons/hdmr2 weapons/hdmr3 weapons/hdmr4 }
 
+weapons/carb1 carbf1
+weapons/carb2 carbf2
+weapons/carb3 carbf3
+
+$random weapons/rifle/sfire { weapons/carb1 weapons/carb2 weapons/carb3 }
+
 /*
 might use, might not use, don't know.
 
@@ -197,10 +203,6 @@ hmgun HMGFIRE
 //$volume hmgun .6
 emgun emgun
 
-
-//Carbine
-Weapons/Rifle/SFire 4AFLFIR1
-
 //Autoshotgun
 $random FLAKFIRE { SSALT1 SSALT2 SSALT3}
 SSALT1	SSALT1
@@ -331,7 +333,12 @@ PSRLFIN PSRLFIN
 weapons/pistolsuppressor_on PSLREQ1
 weapons/pistolsuppressor_off PSLREQ2
 
-weapons/suppressedpistol DSPISTL1
+weapons/suppressedpistol1 2XSFIRE1
+weapons/suppressedpistol2 2XSFIRE2
+weapons/suppressedpistol3 2XSFIRE3
+weapons/suppressedpistol4 2XSFIRE4
+
+$random weapons/suppressedpistol { weapons/suppressedpistol1 weapons/suppressedpistol2 weapons/suppressedpistol3 weapons/suppressedpistol4 }
 
 $random weapons/pistol {2PFIRE1 2PFIRE2 2PFIRE3}
 2PFIRE1 2XPFIRE1
