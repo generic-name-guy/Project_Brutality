@@ -1737,14 +1737,14 @@ ACTOR Rifle : PB_Weapon
 				A_SetWeaponSprite("H0F1");
 				
 				
-				A_PlaySoundEx("weapons/hdmr/fire", "Weapon");
+				A_StartSound("weapons/hdmr/fire", 1, CHANF_OVERLAP);
 				
 				
 				PB_SpawnCasing("LMGCasingStandard",17.5, 0.5, 32,frandom(0,2),frandom(3,5),frandom(4,7));
 			}
 			else {
 				A_Overlay(-40, "MuzzleFlashHandler");
-				A_PlaySoundEx("weapons/rifle", "Weapon");
+				A_StartSound("weapons/rifle", 1, CHANF_OVERLAP);
 				PB_SpawnCasing("EmptyBrass",28,0,30,3,Frandom(5,8),Frandom(1,4));
 			}
 		
