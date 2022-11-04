@@ -25,15 +25,18 @@ weapons/hdmr4 hdmrf4
 
 $random weapons/hdmr/fire { weapons/hdmr1 weapons/hdmr2 weapons/hdmr3 weapons/hdmr4 }
 
+/*
+might use, might not use, don't know.
+
 weapons/dmr1 dmrf1
 weapons/dmr2 dmrf2
 weapons/dmr3 dmrf3
 weapons/dmr4 dmrf4
 weapons/dmr5 dmrf5
 weapons/dmr6 dmrf6
+*/
 
-$random weapons/rifle { weapons/dmr1 weapons/dmr2 weapons/dmr3 weapons/dmr4 weapons/dmr5 weapons/dmr6 }
-
+weapons/rifle arf4
 weapons/rifle/magout "sounds/combat/weapons/Rifle caliber weapons/DMR/DMR_MAGOUT.ogg"
 weapons/rifle/magin "sounds/combat/weapons/Rifle caliber weapons/DMR/DMR_MAGIN.ogg"
 weapons/rifle/magchange "sounds/combat/weapons/Rifle caliber weapons/DMR/DMR_MAG_CHANGE.ogg"
