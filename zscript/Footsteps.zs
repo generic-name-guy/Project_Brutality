@@ -67,6 +67,8 @@ class PB_Footsteps : Actor
 			//play the sound if it's non-null
 			if (stepsound != "none")
 				toFollow.A_StartSound(stepsound, CHAN_AUTO, CHANF_LOCAL|CHANF_UI, volume:soundVolume);
+				toFollow.A_StartSound("footsteps/gear", CHAN_AUTO, CHANF_LOCAL|CHANF_UI, volume:soundVolume);
+				toFollow.A_StartSound("footsteps/gearwea", CHAN_AUTO, CHANF_LOCAL|CHANF_UI, volume:soundVolume);
 			
 			//delay CVAR value is inverted, where 1.0 is default, higher means more frequent, smaller means less frequent
 			double dmul = (2.1 - Clamp(1.8,0.1,2));
