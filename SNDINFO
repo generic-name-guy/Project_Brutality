@@ -25,24 +25,14 @@ weapons/hdmr4 hdmrf4
 
 $random weapons/hdmr/fire { weapons/hdmr1 weapons/hdmr2 weapons/hdmr3 weapons/hdmr4 }
 
-weapons/carb1 carbf1
-weapons/carb2 carbf2
-weapons/carb3 carbf3
-
-$random weapons/rifle/sfire { weapons/carb1 weapons/carb2 weapons/carb3 }
-
-/*
-might use, might not use, don't know.
+weapons/rifle/sfire carbf1
 
 weapons/dmr1 dmrf1
 weapons/dmr2 dmrf2
 weapons/dmr3 dmrf3
-weapons/dmr4 dmrf4
-weapons/dmr5 dmrf5
-weapons/dmr6 dmrf6
-*/
 
-weapons/rifle arf4
+$random weapons/rifle { weapons/dmr1 weapons/dmr2 weapons/dmr3 }
+
 weapons/rifle/magout "sounds/combat/weapons/Rifle caliber weapons/DMR/DMR_MAGOUT.ogg"
 weapons/rifle/magin "sounds/combat/weapons/Rifle caliber weapons/DMR/DMR_MAGIN.ogg"
 weapons/rifle/magchange "sounds/combat/weapons/Rifle caliber weapons/DMR/DMR_MAG_CHANGE.ogg"
@@ -72,7 +62,6 @@ weapons/rocket/loadingmechanism2	"sounds/combat/weapons/Rocket Launcher/RL_Loadi
 weapons/rocket/innercycle	"sounds/combat/weapons/Rocket Launcher/RL_InnerCycle.ogg"
 
 //UAC DMR
-weapons/rifle arf4
 weapons/rifle/magout "sounds/combat/weapons/Rifle caliber weapons/DMR/DMR_MAGOUT.ogg"
 weapons/rifle/magin "sounds/combat/weapons/Rifle caliber weapons/DMR/DMR_MAGIN.ogg"
 weapons/rifle/magchange "sounds/combat/weapons/Rifle caliber weapons/DMR/DMR_MAG_CHANGE.ogg"
@@ -710,9 +699,17 @@ footsteps/gear1 gear1
 footsteps/gear2 gear2
 footsteps/gear3 gear3
 footsteps/gear4 gear4
-footsteps/gear4 gear5
+footsteps/gear5 gear5
 
 $random footsteps/gear { footsteps/gear1 footsteps/gear2 footsteps/gear3 footsteps/gear4 footsteps/gear5 }
+
+footsteps/gearwea1 gearwea1
+footsteps/gearwea2 gearwea2
+footsteps/gearwea3 gearwea3
+footsteps/gearwea4 gearwea4
+footsteps/gearwea5 gearwea5
+
+$random footsteps/gearwea { footsteps/gearwea1 footsteps/gearwea2 footsteps/gearwea3 footsteps/gearwea4 footsteps/gearwea5 }
 //Torches
 BDFirePlace2 dsrdtrch
 $limit BDfireplace2 2
