@@ -266,18 +266,12 @@ weapons/shotgunmag/magout SH_MAGOU
 weapons/shotgunmag/magin SH_MAGIN
 
 //SSG
-$random weapons/shh2 { SSGAlt1 SSGAlt2 SSGAlt3 }
-SSGAlt1 shfire1
-SSGAlt2 shfire2
-SSGAlt3 shfire3
+weapons/shh2 SSGFSING
 $rolloff Weapons/shh2 100 2200
 weapons/ssg/close	SSGCLOSE
 weapons/ssg/open	SSGOPEN
 weapons/ssg/in		SSGIN
-$random SSHFIRE { SSHFIRE0 SSHFIRE2 SSHFIRE3 }
-SSHFIRE0 SSHFIRE0
-SSHFIRE2 SSHFIRE2
-SSHFIRE3 SSHFIRE3
+SSHFIRE SSGFIRE
 $rolloff SSHFIRE 100 2200
 weapons/ssg/inspect1 SSGINS1
 weapons/ssg/inspect2 SSGINS2

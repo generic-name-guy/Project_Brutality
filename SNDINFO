@@ -232,13 +232,6 @@ bltf1 BLT_FLS1
 bltf2 BLT_FLS2
 bltf3 BLT_FLS3
 
-//SSG
-$random weapons/shh2 { SSGAlt1 SSGAlt2 SSGAlt3 }
-SSGAlt1 shfire1
-SSGAlt2 shfire2
-SSGAlt3 shfire3
-$rolloff Weapons/shh2 100 2200
-
 //Pump Shotty
 weapons/sgmvpump stgnmvmp
 
@@ -712,6 +705,14 @@ step/lava4			DSLAVA4
 $random step/lava { step/lava1 step/lava2 step/lava3 step/lava4 }
 world/lavasizzle		dslvsiz
 world/lavasizzle2 	DSSIZLS
+//Gear
+footsteps/gear1 gear1
+footsteps/gear2 gear2
+footsteps/gear3 gear3
+footsteps/gear4 gear4
+footsteps/gear4 gear5
+
+$random footsteps/gear { footsteps/gear1 footsteps/gear2 footsteps/gear3 footsteps/gear4 footsteps/gear5 }
 //Torches
 BDFirePlace2 dsrdtrch
 $limit BDfireplace2 2
