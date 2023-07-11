@@ -39,6 +39,7 @@ const MAXITERATIONS = 32676;
 #include "zscript/PBHitbox.zc"
 #include "zscript/TiltPlus/TiltPlusPlus.zc"
 #include "zscript/TiltPlus/TiltPlusPlusMenu.zc"
+#include "zscript/PlayerStats/GlobalStats.zsc"
 #include "zscript/PBPDA.zc"
 #include "zscript/Gore/NashGore/NashGoreCommon.zc"
 #include "zscript/Gore/NashGore/NashGoreStatics.zc"
@@ -90,6 +91,7 @@ const MAXITERATIONS = 32676;
 #include "zscript/Weapons/BaseWeapon_Melee.zsc"
 #include "zscript/Weapons/BaseWeapon_Executions.zsc"
 #include "zscript/Weapons/BaseWeapon_Barrels.zsc"
+#include "zscript/Weapons/ThrownGrenades.zs"
 #include "actors/Weapons/Slot9/UnmakerCharge.zsc"
 #include "zscript/Weapons/Projectiles/BulletProjectile.zsc"
 #include "zscript/Weapons/Projectiles/BulletDef.SmallCal.zsc"
@@ -122,6 +124,7 @@ const MAXITERATIONS = 32676;
 #include "zscript/Spawner/Monsters/PBHKSpawner.zc"
 #include "zscript/Spawner/Monsters/PBBOHSpawner.zc"
 #include "zscript/Spawner/Monsters/PBMancubusSpawner.zc"
+#include "zscript/Spawner/Monsters/PBAVSpawner.zc"
 #include "zscript/Spawner/Monsters/PBMastermindSpawner.zc"
 #include "zscript/Spawner/Monsters/PBCyberDemonSpawner.zc"
 
